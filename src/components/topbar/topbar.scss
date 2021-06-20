@@ -1,0 +1,160 @@
+
+
+ @import"../../global.scss";
+
+.topbar{
+
+  overflow: hidden;
+  width: 100%;
+  height:70px;
+  background-color: white;
+   position: fixed;
+   color:$primaryColor;
+  top:0;
+  z-index: 3;
+  transition: all 1s ease;
+
+  .wrapper{
+    padding:10px 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left{
+       display: flex;
+       align-items: center;  
+      .logo{
+      font-size: 50px;
+      font-weight: 1000;
+       text-decoration: none;
+          color: $primaryColor;
+         
+      }
+
+      .itemContainer{
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+
+           .icon{
+             font-size: 18px;
+             margin-right: 5px;
+
+           }
+
+           span{
+             font-size: 15px;
+             font-weight: 700;
+
+           }
+      }
+    }
+
+    .right{
+
+      .hamburger {
+          
+        width:32px;
+        height:25px;
+        display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         cursor: pointer;
+
+         span {
+           
+          width: 100%;
+          height: 3px;
+          background-color:$mainColor;
+          transform-origin: left;
+          transition: all 2s ease;
+        }
+      }
+
+     
+    }
+  }
+
+
+
+  &.active{
+
+  //the &. mean is there is a active
+
+  background-color: $mainColor;
+     color: $secondaryColor; 
+     overflow: hidden;
+
+     .hamburger {
+
+
+       span{
+         &:first-child{
+           background-color: red;
+           transform: rotate(45deg);
+         }
+         &:last-child{
+           background-color: red;
+           transform: rotate(-45deg);
+         }
+         &:nth-child(2){
+           opacity: 0;
+         }
+       }
+     }
+
+     .wrapper .left .logo{
+       color: $secondaryColor;
+     }
+
+     
+  }
+}
+
+
+.toggle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  
+  padding: 0;
+
+ 
+  
+  .label{
+     padding: 10px 30px;
+    width: 10px;
+    height: 15px;
+    background-color:#111;
+    margin: 0;
+    border-radius: 20px;
+  }
+
+  input[type="checkbox"] {
+
+    -webkit-appearance:none ;
+    visibility: hidden;
+    display: none;
+  }
+
+  .check{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 30px;
+    border-radius: 60px;
+    background-color: black;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+  }
+  
+  input[type="checkbox"]:checked ~ .check {
+
+    background-color: #fff;
+    box-shadow: 0 0 0 1200px #092c3e;
+  }
+
+
+}
