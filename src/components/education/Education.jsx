@@ -1,6 +1,27 @@
 import "./education.scss"
 
 export default function Education() {
+
+
+  const data = [
+
+
+    {
+      id:"javascript-Apps",
+      title:"Javascript Apps",
+      
+    },
+
+    {
+      id:"java-Apps",
+      title:"Java Apps",
+    },
+
+    {
+      id:"algorithms-Manipulation",
+      title:"Algorithms Manipulation",
+    },
+  ];
   return (
     <div className="education" id ="education">
       
@@ -21,6 +42,8 @@ export default function Education() {
             </div>
             
           </div>
+
+          
         </div>
       </div>
 
