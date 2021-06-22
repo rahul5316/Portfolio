@@ -6,12 +6,40 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
+  .glow {
 
-  h1{
-    font-size: 70px;
+    font-size: 80px;
+      background-image: url(https://fsb.zobj.net/crop.php?r=wgd4cvS6PxhKVIeSGOMkEL3RkmMDzkchVrmxMyrCqsitUWgcO71VH9a-tpuq0zInuTE4wYoZMjDVH8vH7O_KKU3WBFdGYtjzJ3VT1DvhFnLJ19_8xAHSAyUBVtcr-fx9WpjVRNRBN-fFyTKj);
+      background-clip: text;
+    color:transparent;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    padding: 40px;
+
+    animation: bganimation 10s infinite;
+
+                    background-clip: text;
+
+                    @keyframes bganimation {
+                        0%{
+                        background-position: 0% 50%;
+                        }
+                        50%{
+                        background-position: 100% 50%;
+                        }
+                        100%{
+                        background-position: 0% 50%;
+                        }
+                    }
 
   }
+  
+ 
+
+
+ 
 
 
   ul{

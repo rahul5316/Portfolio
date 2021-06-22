@@ -20,14 +20,7 @@ export default function topbar({menuOpen,setMenuOpen}) {
           <span>rahulkumarsinha5316@gmail.com</span>
         </div>
 
-        <div className="toggle">
-               
-               <label>
-
-                 <input type="checkbox"/>
-                 <span className="check"></span>
-               </label>
-        </div>
+        
 
        </div>
        <div className="right">

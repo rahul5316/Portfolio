@@ -18,6 +18,10 @@
     "react-dom": "^17.0.2",
     "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
+    "use-dencrypt-effect": "^1.0.2",
+    "velocity-react": "^1.4.3",
+    "velocity.js": "^0.3.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

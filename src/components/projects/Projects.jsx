@@ -7,6 +7,8 @@ import{jsProjects,
   algoProjects,
 }  from "../../data.js";
 
+
+
 export default function Projects() {
    
   const [selected, setSelected]= useState("javascript-Apps");
@@ -52,8 +54,11 @@ export default function Projects() {
   },[selected])
 
   return (
+
+    
+
     <div className="projects" id="projects">
-            <h1>Projects</h1>
+            <h1 className="glow">Projects</h1>
                <ul>
                   
                  {list.map((section) =>(
@@ -80,5 +85,6 @@ export default function Projects() {
                  
                </div>
                </div>
+              
   );
 }

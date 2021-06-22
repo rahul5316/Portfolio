@@ -1,7 +1,4 @@
 
-
-
-
 const x = {
   particles: {
     number: {

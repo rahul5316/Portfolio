@@ -4,6 +4,8 @@ import { useEffect, useRef} from "react";
 import x from "../../config/animation";
 import Particles from "react-particles-js"
 
+
+
 export default function Intro() {
   const textRef = useRef();
 
@@ -35,8 +37,8 @@ export default function Intro() {
         <h1>Rahul.</h1>
         <h3><span ref ={textRef}></span></h3>
       </div>
-      <a href="#education">
-      <img src="assets/download.png" alt=""/>
+      <a href='#ducation'>
+          <img src="assets/download.png" alt=""/>
       </a>
     </div>
     </div>
