@@ -15,7 +15,7 @@ export default function Intro() {
       backDelay: 1000,
       backSpeed:75,
       showCursor:true,
-      strings: ["Developer.", "Gamer!","Entrepreneur." ] });
+      strings: ["Developer.", "Gamer!"] });
 
   }, [])
   return (
