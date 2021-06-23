@@ -31,7 +31,8 @@ export default function Contact() {
                        <input type="hidden" name="_captcha" value="false"></input>
                
           
-              <input type="text" name="message" placeholder ="Please write your message here"required/>
+              {/* <input type="text" name="message" placeholder ="Please write your message here"required/> */}
+              <textarea type="text" name="message" placeholder="Please write your message here" required/>
              <button type="submit">Send</button>
              {message && <span>Thanks for contacting me. I'll reply ASAP :)</span>}
             </form> 

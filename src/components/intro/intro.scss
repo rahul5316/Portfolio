@@ -7,6 +7,7 @@
    left: 0;
    top: 0;
    position: relative;
+   // background-color: rgb(32, 31, 31);
    background-color: white;
    overflow: hidden;
    
@@ -19,9 +20,9 @@
   top: 0;
 
   .left{
-     padding: 100px;
-flex: 0.5;
-overflow: hidden;
+      padding: 100px;
+      flex: 0.5;
+      overflow: hidden;
 
 
 
@@ -64,7 +65,7 @@ overflow: hidden;
          
      h1{
         
-        color:navy;
+        color:white;
          
      }
      h2{

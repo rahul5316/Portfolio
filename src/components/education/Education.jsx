@@ -29,7 +29,7 @@ export default function Education() {
     }
 
     return (
-        <div className="Education" id='edu'>
+        <div className="Education" id='Education'>
             <h1 className="glow">Education</h1>
             <div className="slider" style={
                 {transform:`translateX(-${slider * 100}vw)`,}}>

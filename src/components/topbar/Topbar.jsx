@@ -1,24 +1,43 @@
-import "./topbar.scss"
-import {Person,Mail} from "@material-ui/icons"
-
+import "./topbar.scss";
+import HomeIcon from '@material-ui/icons/Home';
 
 export default function topbar({menuOpen,setMenuOpen}) {
+
+
   return (
     <div className= {"topbar "+(menuOpen && "active")}>
       <div className="wrapper">
        <div className="left">
-        <a href="#intro" className="logo">Rahul</a>
+          
         <div className="itemContainer">
-          <Person className="icon"/>
-          <span>+1-(236)-8853406</span>
 
+          <div className="homeContainer">
+            <a href="#intro">
+            <img src="assets/home.png" alt=""/>
+            </a>
+          </div>
+         
+          
+
+          <div className="gitHolder" onClick={()=>window.open("https://github.com/rahul5316")}>
+            <img src="assets/git2.png" alt=""/>
+          </div>
+                
+                <div className="linkedinHolder" onClick={()=>window.open("https://www.linkedin.com/in/rahulkumarsinha5316/")}>
+                  <img src="assets/linked2.png" alt=""/>
+                </div>
+            {/* <GitHubIcon className ="git" onClick={()=>window.open("https://github.com/rahul5316")}/> */}
+            {/* <div className="InstaHolder">
+            <InstagramIcon className="insta" onClick={()=>window.open("https://www.instagram.com/rahuls078/?hl=en")}/>
+            </div> */}
+            <div className="instaHolder" onClick={()=>window.open("https://www.instagram.com/rahuls078/?hl=en")}>
+              <img src="assets/ig.png" alt=""/>
+            </div>
+            
 
         </div>
 
-        <div className="itemContainer">
-          <Mail className="icon"/>
-          <span>rahulkumarsinha5316@gmail.com</span>
-        </div>
+        
 
         
 

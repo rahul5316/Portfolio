@@ -5,7 +5,8 @@
 
 
       
-background-color: white;
+  // background-color: rgb(32, 31, 31);
+  background-color: white;
 
 
 
@@ -24,7 +25,7 @@ background-color: white;
     .glow {
 
       font-size: 80px;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiF2Iaj5sml2HaYgITEMeUM6c3Gz18MKYOPw&usqp=CAU);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIRoaoUTpZrhZjGSkRDNJgy91xdY41X8zUm75iRJRFgWXPOFl3XX_UJGQNiOEoGauBhsA&usqp=CAU);
         background-clip: text;
       color:transparent;
       text-align: center;
@@ -80,7 +81,7 @@ background-color: white;
         justify-content: center;
         align-items: center;
         width: 400px;
-        height: 200px;
+        height: 400px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: clip;
@@ -130,7 +131,7 @@ background-color: white;
 
 
       textarea{
-         width: 100px;
+         width: 500px;
          height: 200px;
          font-size: 20px;
       }

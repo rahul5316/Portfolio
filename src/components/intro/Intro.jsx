@@ -3,6 +3,7 @@ import {init} from 'ityped';
 import { useEffect, useRef} from "react";
 import x from "../../config/animation";
 import Particles from "react-particles-js"
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
 
@@ -37,7 +38,7 @@ export default function Intro() {
         <h1>Rahul.</h1>
         <h3><span ref ={textRef}></span></h3>
       </div>
-      <a href='#ducation'>
+      <a href="#Education">
           <img src="assets/download.png" alt=""/>
       </a>
     </div>
