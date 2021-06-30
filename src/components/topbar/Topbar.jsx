@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import HomeIcon from '@material-ui/icons/Home';
+
 
 export default function topbar({menuOpen,setMenuOpen}) {
 
@@ -43,6 +43,34 @@ export default function topbar({menuOpen,setMenuOpen}) {
 
        </div>
        <div className="right">
+
+      
+          
+
+         
+
+         
+
+         {/* <button className ="button"onClick={()=>window.open("assets/Rahul's_Resume.pdf")}>
+              Resume  */}
+
+          {/* </button> */}
+
+          
+{/* 
+          <button className ="button"onClick={()=>window.open("assets/Rahul's_Resume.pdf")}>
+
+            
+            Resume
+            </button> */}
+            {/* <a href="assets/Rahul's_Resume.pdf" className="btn btn-white btn-animated">Resume</a> */}
+
+          
+          {/* <a href="assets/Rahul's_Resume.pdf" className="btn btn3"> Resume</a> */}
+
+        
+                
+              
          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
            <span className="line1"></span>
            <span className="line2"></span>

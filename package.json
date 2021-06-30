@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": ".",
+  "homepage": "https://rahul5316.github.io/Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,10 +9,13 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "compass-mixins": "^0.12.10",
+    "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "gh-pages": "^3.2.2",
     "ityped": "^1.0.3",
     "node-sass": "^6.0.0",
+    "nodemailer": "^6.6.2",
     "particle.js": "^1.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -22,7 +25,8 @@
     "use-dencrypt-effect": "^1.0.2",
     "velocity-react": "^1.4.3",
     "velocity.js": "^0.3.4",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "zdog": "^1.1.2"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -49,5 +53,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

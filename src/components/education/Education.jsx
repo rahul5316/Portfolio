@@ -11,7 +11,7 @@ export default function Education() {
             id:'college',
             title:'CS Undergrad (3rd Year) @UBC',
             img: 'assets/ubc.jpeg',
-            year:'2018-Present'
+            year:'2019-Present'
         },
        
         {
@@ -25,11 +25,12 @@ export default function Education() {
 
     const navi = (dir)=>{
         if (slider===0 && dir===-1) setslider(2);
-        else setslider((slider+dir)%3);
+        else setslider((slider+dir)%2);
     }
 
     return (
         <div className="Education" id='Education'>
+            
             <h1 className="glow">Education</h1>
             <div className="slider" style={
                 {transform:`translateX(-${slider * 100}vw)`,}}>

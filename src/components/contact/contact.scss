@@ -1,6 +1,10 @@
+@import "../../global.scss";
+
 .contact{
   
   display: flex;
+  flex-direction: column;
+
 
 
 
@@ -20,6 +24,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @include mobile {
+
+      display: flex;
+      font-size: 30px;
+      align-items: center;
+      justify-content: center;
+
+    }
     
      
     .glow {
@@ -54,6 +67,10 @@
 
     h2{
       font-size: 30px;
+
+      @include mobile{
+        font-size: 20px;
+      }
     }
 
     form{
@@ -61,6 +78,11 @@
       display: flex;
       justify-content: space-evenly;
       align-items: center;
+
+      @include mobile{
+
+        font-size: 20px;
+      }
 
       label {
         display: flex;
@@ -70,6 +92,7 @@
         width: 400px;
         line-height: 26px;
         margin-bottom: 10px;
+        
       }
       
      
@@ -87,6 +110,13 @@
         text-overflow: clip;
         overflow: hidden;
         line-break: auto;
+
+        @include mobile {
+
+          width: 70vw;
+          margin-top: 20px;
+          height: auto;
+        }
       }
   
       input[type=Last-name]{
@@ -95,6 +125,12 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        @include mobile {
+
+          width: 80vw;
+          margin-top: 20px;
+          height: auto;
+        }
       }
        input[type=First-name]{
        
@@ -102,6 +138,11 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        @include mobile {
+          margin-top: 20px;
+          width: 80vw;
+          height: auto;
+        }
       }
       input[type=email]{
  
@@ -109,6 +150,11 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        @include mobile {
+          margin-top: 20px;
+          width: 80vw;
+          height: auto;
+        }
       }
     }
 
@@ -121,11 +167,23 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
+      @include mobile {
+        margin-top: 20px;
+        width: 80vw;
+        height: auto;
+      }
 
       input{
             width: 300px;
              height: 30px;
           font-size: 17px;
+          @include mobile {
+               
+
+            margin-top: 20px;
+            width: 80vw;
+            height: auto;
+          }
       }
 
 
@@ -134,6 +192,14 @@
          width: 500px;
          height: 200px;
          font-size: 20px;
+
+         @include mobile {
+               
+
+          margin-top: 20px;
+          width: 80vw;
+          height: 30vh;
+        }
       }
 
       button{ 
@@ -147,6 +213,13 @@
         cursor: pointer;
         &:focus{
           outline: none;
+        }
+
+        @include mobile {
+         
+          margin-top: 30px;;
+          width: 20vw;
+          height: auto;
         }
       }
 

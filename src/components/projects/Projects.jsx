@@ -2,7 +2,8 @@ import {useEffect, useState} from "react";
 
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./projects.scss";
-import{jsProjects,
+import{
+  jsProjects,
   javaProjects,
   algoProjects,
 }  from "../../data.js";
@@ -66,7 +67,7 @@ export default function Projects() {
                      setSelected={setSelected}
                      id = {section.id}
                      />
-                 ))};
+                 ))}
                </ul>
                <div className="container">
                    

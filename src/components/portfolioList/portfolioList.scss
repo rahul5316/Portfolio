@@ -7,10 +7,12 @@
   padding: 7px;
   border-radius: 13px;
   cursor: pointer;
+  overflow: hidden;
 
   &.active{
     background-color:$primaryColor;
     color: white;
+    overflow: hidden;
   }
 
 
