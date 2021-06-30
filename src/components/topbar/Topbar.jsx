@@ -73,7 +73,7 @@ export default function topbar({menuOpen,setMenuOpen}) {
 
           <div className="resume-btn">
                   
-          <a className="btn btn3" href="assets/Rahul's_Resume.pdf" target="_blank">Resume</a>
+          <a className="btn btn3" href="assets/Rks_Resume_Final.pdf" target="_blank">Resume</a>
 
           </div>
 
