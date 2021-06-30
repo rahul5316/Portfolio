@@ -60,6 +60,10 @@
         }
 
         }
+
+
+
+       
            .linkedinHolder{
             display: flex;
             align-items: center;
@@ -105,7 +109,8 @@
 
 
            }
- 
+
+          
            .gitHolder{
 
             display: flex;
@@ -142,92 +147,52 @@
       margin: 0;
       padding: 0;
 
-      .downloadButton {
-             
-              right: 40px;
-              top: 35px;
-           transform: translate(-50%,-50%);
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           position: absolute;
-           
-           
-.text-box {
-  margin-left: 10px;
- margin-top: 10px;
- 
-}
+          .resume-btn{
 
-.btn:link, .btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 40px;
-  display: inline-block;
-  border-radius: 100px;
-  transition: all .2s;
-  
-}
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-.btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
+            .btn{
+              position: relative;
+              display: block;
+              color: black;
+              font-size: 14px;
+              font-family: "montserrat";
+              text-decoration: none;
+              margin-bottom: 15px;
+              border: 2px solid #ff7675;
+              padding: 14px 60px;
+              text-transform: uppercase;
+              overflow: hidden;
+              transition: 1s all ease;
+              margin-right: 30px;
 
-.btn:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
+            }
+            .btn::before{
+              background: #ff7675;
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%,-50%);
+              z-index: -1;
+              transition: all 0.6s ease;
+            }
 
-.btn-white {
-  background-color: #fff;
-  color: #777;
-}
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all .4s;
-}
-
-.btn-white::after {
-  background-color: #fff;
-}
-
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
-
-.btn-animated {
-  animation: moveInBottom 5s ease-out;
-  animation-fill-mode: backwards;
-}
-
-@keyframes moveInBottom {
-  0% {
-      opacity: 0;
-      transform: translateY(30px);
-  }
-
-  100% {
-      opacity: 1;
-      transform: translateY(0px);
-  }
-}
-        
-           
-
+            .btn3::before{
+              width: 100%;
+              height: 0%;
+              transform: translate(-50%,-50%) rotate(45deg);
+            }
+            .btn3:hover::before{
+              height: 380%;
+            }
+   
           
-        
-      }
+
+
+          }
       
       .hamburger {
           
@@ -237,7 +202,7 @@
          flex-direction: column;
          justify-content: space-between;
          cursor: pointer;
-         margin-bottom: 20px;
+         margin-top: 10px;
          margin-right: 5px;
 
          span {

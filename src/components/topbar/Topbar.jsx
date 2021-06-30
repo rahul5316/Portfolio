@@ -22,6 +22,9 @@ export default function topbar({menuOpen,setMenuOpen}) {
           <div className="gitHolder" onClick={()=>window.open("https://github.com/rahul5316")}>
             <img src="assets/git2.png" alt=""/>
           </div>
+
+
+         
                 
                 <div className="linkedinHolder" onClick={()=>window.open("https://www.linkedin.com/in/rahulkumarsinha5316/")}>
                   <img src="assets/linked2.png" alt=""/>
@@ -48,7 +51,7 @@ export default function topbar({menuOpen,setMenuOpen}) {
           
 
          
-
+           
          
 
          {/* <button className ="button"onClick={()=>window.open("assets/Rahul's_Resume.pdf")}>
@@ -57,16 +60,22 @@ export default function topbar({menuOpen,setMenuOpen}) {
           {/* </button> */}
 
           
-{/* 
-          <button className ="button"onClick={()=>window.open("assets/Rahul's_Resume.pdf")}>
+
+          {/* <button className ="button"onClick={()=>window.open("assets/Rahul's_Resume.pdf")}>
 
             
             Resume
             </button> */}
-            {/* <a href="assets/Rahul's_Resume.pdf" className="btn btn-white btn-animated">Resume</a> */}
+            {/* <a href="assets/Rahul's_Resume.pdf" className="btn btn4">Resume</a> */}
 
           
           {/* <a href="assets/Rahul's_Resume.pdf" className="btn btn3"> Resume</a> */}
+
+          <div className="resume-btn">
+                  
+          <a className="btn btn3" href="assets/Rahul's_Resume.pdf" target="_blank">Resume</a>
+
+          </div>
 
         
                 

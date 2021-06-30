@@ -160,6 +160,7 @@
   .arrowContainer{
 
    width: 30px;
+   background-color: white;
 
    display: flex;
    align-items: center;
@@ -179,6 +180,7 @@
 
      img{
         
+      background-color: white;
         width: 30px;
         animation: arrowBlink 1.5s infinite;
         @include mobile{  

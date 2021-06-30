@@ -3,7 +3,7 @@ import {init} from 'ityped';
 import { useEffect, useRef} from "react";
 import x from "../../config/animation";
 import Particles from "react-particles-js"
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
 
 
 
