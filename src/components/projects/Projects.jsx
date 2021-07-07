@@ -44,7 +44,7 @@ export default function Projects() {
         case "java-Apps":
         setData(javaProjects);
         break;
-        case "Algorithms-Manipulation":
+        case "algorithms-Manipulation":
         setData(algoProjects);
         break;
         default:

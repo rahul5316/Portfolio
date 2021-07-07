@@ -108,6 +108,7 @@
       flex-wrap:wrap ;
       align-items: center;
       justify-content: center;
+      overflow: hidden;
 
       @include mobile{
         justify-content: center;
