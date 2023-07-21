@@ -48,12 +48,6 @@ export default function topbar({menuOpen,setMenuOpen}) {
        <div className="right">
 
       
-          
-
-         
-           
-         
-
          {/* <button className ="button"onClick={()=>window.open("assets/Rahul's_Resume.pdf")}>
               Resume  */}
 
@@ -73,7 +67,7 @@ export default function topbar({menuOpen,setMenuOpen}) {
 
           <div className="resume-btn">
                   
-          <a className="btn btn3" href="assets/Rks_Resume_Final.pdf" target="_blank">Resume</a>
+          <a className="btn btn3" href="assets/Rahul Kumar Sinha Resume.pdf" target="_blank">Resume</a>
 
           </div>
 
